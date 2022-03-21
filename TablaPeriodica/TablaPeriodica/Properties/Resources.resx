@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Plata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xenon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xenon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hasio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hasio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Escandio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Escandio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lantani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lantani.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Actinidos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actinidos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MetalesTransicionImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MetalesTransicionImg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Darmstatio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Darmstatio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cerio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cerio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Neon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Neon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Torio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Torio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Renio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Renio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Niquel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Niquel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alcalinos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alcalinos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cesio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cesio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moscovio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moscovio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seaborgio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seaborgio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LatanidosImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LatanidosImg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rutenio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rutenio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MetalesTransicion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MetalesTransicion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Argon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Argon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Einstenio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Einstenio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cromo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cromo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Niobio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Niobio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calcio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calcio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hafnio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hafnio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estaño" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Estaño.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Terbio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Terbio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OtrosMetalesImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OtrosMetalesImg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plomo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Samario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Samario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Magnesio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magnesio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Californio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Californio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HalogenosImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HalogenosImg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Metaloides" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Metaloides.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lutecio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lutecio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecnecio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecnecio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vanadio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vanadio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fluor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fluor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nobelio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nobelio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prometio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prometio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Selenio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Selenio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Osmio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Osmio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fosforo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fosforo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rubidio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rubidio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MetaloidesImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MetaloidesImg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cadmio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cadmio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Antimonio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Antimonio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potasio1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potasio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fermio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fermio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OtrosNoMetalesBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OtrosNoMetalesBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OtrosMetales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OtrosMetales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manganeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manganeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arsenico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arsenico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Copernicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Copernicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Meitnerio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Meitnerio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gadolinio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gadolinio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dubnio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dubnio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Praseodimio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Praseodimio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mendelevio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mendelevio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carbono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carbono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlcalinoterreosImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlcalinoterreosImg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yodo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yodo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Germanio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Germanio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bromo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bromo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bismuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bismuto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hierro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hierro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Halogenos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Halogenos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Curio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Curio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disprosio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Disprosio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Indio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Indio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Telurio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Telurio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polonio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polonio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxigeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oxigeno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lantano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lantano.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roentgenio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Roentgenio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="correcto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\correcto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lantanidos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lantanidos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kripton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kripton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Americio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Americio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Hidrogeno" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        Af4O/vXzf+l//V4cz8jMdaMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Neodimio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Neodimio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plutonio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plutonio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pregunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pregunta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aluminio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aluminio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tantalo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tantalo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potasio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potasio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mercurio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mercurio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pregunta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pregunta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Platino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Platino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Europio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Europio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cobalto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cobalto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Erbio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Erbio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Radon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Radon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Radio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Radio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sodio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sodio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Silicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nitrogeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nitrogeno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Teneso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Teneso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OtrosNoMetalesImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OtrosNoMetales1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Titanio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Titanio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cloro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cloro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iridio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iridio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wolframio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wolframio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lawrencio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lawrencio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rutherfordio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rutherfordio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flerovio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flerovio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Neptunio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Neptunio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Actini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlcalinosImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlcalinosImg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Litio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Litio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Talio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Talio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Actinio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actinio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alcalinos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alcalinos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Circonio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Circonio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oganeson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oganeson.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berkelio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berkelio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tulio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tulio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Itrio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Itrio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Astato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Astato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iterbio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iterbio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActinidoImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ActinidoImg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Molibdeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Molibdeno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berilio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berilio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Livermorio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Livermorio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Holmio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Holmio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alcalinoterreos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alcalinoterreos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GasesNoblesImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GasesNoblesImg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Azufre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Azufre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rodio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rodio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cobre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cobre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Helio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Helio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nihonio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nihonio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uranio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uranio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estroncio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Estroncio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zinc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zinc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Francio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Francio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paladio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paladio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GasesNobles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GasesNobles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Protactinio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Protactinio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OtrosNoMetalesBtn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OtrosNoMetalesBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bohrio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bohrio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laboratory-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laboratory-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
